@@ -13,6 +13,7 @@ const Convenience = Me.imports.convenience;
 const UDisks2 = Me.imports.udisks2;
 const AticonfigUtil = Me.imports.aticonfigUtil;
 const NvidiaUtil = Me.imports.nvidiaUtil;
+const AmdGpuUtil = Me.imports.amdGpuUtil;
 const HddtempUtil = Me.imports.hddtempUtil;
 const SensorsUtil = Me.imports.sensorsUtil;
 const BumblebeeNvidiaUtil = Me.imports.bumblebeeNvidiaUtil;
@@ -180,6 +181,9 @@ const FreonMenuButton = new Lang.Class({
                 break;
             case 'bumblebee-nvidia-smi':
                 this._utils.gpu = new BumblebeeNvidiaUtil.BumblebeeNvidiaUtil();
+                break;
+            case 'amdgpu':
+                this._utils.gpu = new AmdGpuUtil.AmdGpuUtil();
                 break;
         }
     },

@@ -77,8 +77,9 @@ const FreonPrefsWidget = new GObject.Class({
         this._addComboBox({
             items : {
                 'none' : _('None'),
-                'nvidia-settings' : _('NVIDIA'),
+                'amdgpu' : _('AMDGPU'),
                 'aticonfig' : _('Catalyst'),
+                'nvidia-settings' : _('NVIDIA'),
                 'bumblebee-nvidia-smi': _('Bumblebee + NVIDIA') },
             key: 'gpu-utility', y : i, x : 2,
             label: _('Video Card Temperature Utility')
@@ -111,7 +112,7 @@ const FreonPrefsWidget = new GObject.Class({
         }
 
         combobox.set_active(Object.keys(params.items).indexOf(this._settings.get_string(params.key)));
-        
+
         combobox.connect('changed', Lang.bind(this, function(entry) {
             let [success, iter] = combobox.get_active_iter();
             if (!success)
