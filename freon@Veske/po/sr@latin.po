@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-06 17:05-0300\n"
+"PO-Revision-Date: 2017-09-21 21:31+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: Slobodan Terzić  <slobodan.terzic@zoho.eu>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: sr@latin\n"
+
+#: bumblebeeNvidiaUtil.js:75 prefs.js:82
+msgid "Bumblebee + NVIDIA"
+msgstr "Bumblebee + NVIDIA"
+
+#: extension.js:319
+msgid "Average"
+msgstr "Prosečna"
+
+#: extension.js:320
+msgid "Maximum"
+msgstr "Najviša"
+
+#: extension.js:341
+#, javascript-format
+msgid "%drpm"
+msgstr "%drpm"
+
+#: extension.js:350
+#, javascript-format
+msgid "%s%.2fV"
+msgstr "%s%.2fV"
+
+#: extension.js:396
+msgid "Please run sensors-detect as root."
+msgstr "Pokrenite sensor-detect kao koreni korisnik."
+
+#: extension.js:397
+msgid ""
+"Please install lm_sensors.\n"
+"If this doesn't help, click here to report with your sensors output!"
+msgstr ""
+"Instalirajte lm_sensors.\n"
+"Ako to ne pomogne kliknite ovde da prijavite grešku sa vašim izlazom senzora!"
+
+#: extension.js:488
+msgid "Temperature Sensors"
+msgstr "Senzori temperatura"
+
+#: extension.js:495
+msgid "Voltage"
+msgstr "Napon"
+
+#: extension.js:509
+msgid "Sensors Settings"
+msgstr "Postavke senzora"
+
+#: prefs.js:33
+msgid "Poll Sensors Every (sec)"
+msgstr "Osvežavaj senzore svakih (sek)"
+
+#: prefs.js:39
+msgid "Show Decimal Value"
+msgstr "Prikaži decimalne vrednosti"
+
+#: prefs.js:40
+msgid "Show one digit after decimal"
+msgstr "Prikaži jednu cifru nakon zareza"
+
+#: prefs.js:45
+msgid "Temperature Unit"
+msgstr "Jedinica temperature"
+
+#: prefs.js:51
+msgid "Position in Panel"
+msgstr "Pozicija na panelu"
+
+#: prefs.js:55
+msgid "Show Icon on Panel"
+msgstr "Prikaži ikonu na panelu"
+
+#: prefs.js:58
+msgid "Show Fan Speed"
+msgstr "Prikaži brzine ventilatora"
+
+#: prefs.js:61
+msgid "Show Power Supply Voltage"
+msgstr "Prikaži napon napajanja"
+
+#: prefs.js:64
+msgid "Group Temperature Items"
+msgstr "Grupiši temperature"
+
+#: prefs.js:65
+msgid "Works if you have more than three temperature sensors"
+msgstr "Radi samo ukoliko imate više od tri senzora"
+
+#: prefs.js:68
+msgid "Group Voltage Items"
+msgstr "Grupiši stavke napona"
+
+#: prefs.js:69
+msgid "Works if you have more than three voltage sensors"
+msgstr "Radi ako imate više od tri senzora napona"
+
+#: prefs.js:74
+msgid "HDD/SSD Temperature Utility"
+msgstr "Alatka za temperature HDD/SDD-a"
+
+#: prefs.js:79
+msgid "None"
+msgstr "nijedna"
+
+#: prefs.js:80
+msgid "NVIDIA"
+msgstr "NVIDIA"
+
+#: prefs.js:81
+msgid "Catalyst"
+msgstr "Catalyst"
+
+#: prefs.js:84
+msgid "Video Card Temperature Utility"
+msgstr "Alatka za temperaturu grafičke kartice"
