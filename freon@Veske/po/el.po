@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-06 17:05-0300\n"
+"PO-Revision-Date: 2017-11-13 11:58+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+
+#: bumblebeeNvidiaUtil.js:75 prefs.js:82
+msgid "Bumblebee + NVIDIA"
+msgstr ""
+
+#: extension.js:319
+msgid "Average"
+msgstr "Μέση"
+
+#: extension.js:320
+msgid "Maximum"
+msgstr "Μέγιστη"
+
+#: extension.js:341
+#, javascript-format
+msgid "%drpm"
+msgstr ""
+
+#: extension.js:350
+#, javascript-format
+msgid "%s%.2fV"
+msgstr ""
+
+#: extension.js:396
+msgid "Please run sensors-detect as root."
+msgstr "Παρακαλώ τρέξτε την εντολή  sensors-detect ως διαχειριστής"
+
+#: extension.js:397
+msgid ""
+"Please install lm_sensors.\n"
+"If this doesn't help, click here to report with your sensors output!"
+msgstr ""
+"Παρακαλώ εγκαταστήστε το lm_sensors.\n"
+"Αν αυτό δεν βοηθήσει, πατήστε εδώ για να αναφέρετε τις αναφορές των δεκτών σας!"
+
+#: extension.js:488
+msgid "Temperature Sensors"
+msgstr "Δέκτες θερμοκρασίας"
+
+#: extension.js:495
+msgid "Voltage"
+msgstr "Τάση"
+
+#: extension.js:509
+msgid "Sensors Settings"
+msgstr "Ρυθμίσεις δεκτών"
+
+#: prefs.js:33
+msgid "Poll Sensors Every (sec)"
+msgstr "Συγκέντρωση πληροφοριών δεκτών κάθε (δεύτ.)"
+
+#: prefs.js:39
+msgid "Show Decimal Value"
+msgstr "Εμφάνισης δεκαδικής τιμής"
+
+#: prefs.js:40
+msgid "Show one digit after decimal"
+msgstr "Εμφάνιση ενός ψηφίου μετά την δεκάδα"
+
+#: prefs.js:45
+msgid "Temperature Unit"
+msgstr "Μονάδες θερμοκρασίας"
+
+#: prefs.js:51
+msgid "Position in Panel"
+msgstr "Θέση στον πίνακα"
+
+#: prefs.js:55
+msgid "Show Icon on Panel"
+msgstr "Εμφάνιση εικονιδίου στον πίνακα"
+
+#: prefs.js:58
+msgid "Show Fan Speed"
+msgstr "Εμφάνιση ταχύτητας ανεμιστηρακίου"
+
+#: prefs.js:61
+msgid "Show Power Supply Voltage"
+msgstr "Εμφάνιση τάσης παροχής ρεύματος"
+
+#: prefs.js:64
+msgid "Group Temperature Items"
+msgstr "Ομαδοποίηση τιμών θερμοκρασίας"
+
+#: prefs.js:65
+msgid "Works if you have more than three temperature sensors"
+msgstr "Λειτουργεί με περισσότερους από τρεις δείκτες θερμοκρασίας"
+
+#: prefs.js:68
+msgid "Group Voltage Items"
+msgstr "Ομαδοποίηση τιμών τάσεων"
+
+#: prefs.js:69
+msgid "Works if you have more than three voltage sensors"
+msgstr "Λειτουργεί με περισσότερους από τρεις δείκτες τάσης"
+
+#: prefs.js:74
+msgid "HDD/SSD Temperature Utility"
+msgstr "Εργαλείο θερμοκρασίας δίσκων HDD/SSD"
+
+#: prefs.js:79
+msgid "None"
+msgstr "Κανένα"
+
+#: prefs.js:80
+msgid "NVIDIA"
+msgstr ""
+
+#: prefs.js:81
+msgid "Catalyst"
+msgstr ""
+
+#: prefs.js:84
+msgid "Video Card Temperature Utility"
+msgstr "Εργαλείο θερμοκρασίας κάρτας γραφικών"
