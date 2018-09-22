@@ -101,7 +101,7 @@ const UDisks2  = new Lang.Class({
     },
 
     destroy: function(callback) {
-        for each (let proxy in this._udisksProxies){
+        for (let proxy of this._udisksProxies){
             if(proxy.drive){
                 proxy.drive.run_dispose();
             }
