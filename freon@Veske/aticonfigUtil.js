@@ -23,7 +23,7 @@ const AticonfigUtil = new Lang.Class({
             return [];
         let label = null;
         let temp = null;
-        for each(let line in this._output) {
+        for(let line of this._output) {
             if(!line)
                 continue;
             let r;

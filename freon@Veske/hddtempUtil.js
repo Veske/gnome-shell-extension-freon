@@ -67,7 +67,7 @@ const HddtempUtil = new Lang.Class({
         }
 
         let sensors = [];
-        for each(let line in hddtempOutput) {
+        for (let line of hddtempOutput) {
             let fields = line.split(sep).filter(function(e){ return e; });
             let sensor = { label: fields[1], temp: parseFloat(fields[2])};
             //push only if the temp is a Number
